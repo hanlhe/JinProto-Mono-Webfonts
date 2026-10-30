@@ -1,0 +1,84 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="JinProto Mono: 0xProto Latin and Tsanger JinKai 04 Chinese, in a fixed one-to-two cell grid.">
+  <title>JinProto Mono</title>
+  <link rel="stylesheet" href="JinProtoMono.css">
+  <style>
+    * { box-sizing: border-box; }
+    body {
+      margin: 0;
+      padding: clamp(1.25rem, 5vw, 4.5rem);
+      color: #292d33;
+      background: #f4f1e9;
+      font-family: "JinProto Mono", monospace;
+      font-synthesis: none;
+    }
+    main { max-width: 1100px; margin: auto; }
+    h1 { margin: 0; font-size: clamp(1.8rem, 4vw, 2.8rem); font-weight: 400; }
+    .intro { margin: .45rem 0 2.5rem; color: #686a6d; font-size: .9rem; line-height: 1.7; }
+    article { border-top: 1px solid #d8d4ca; padding: 1.6rem 0 2rem; }
+    .label { margin: 0 0 .9rem; color: #68645d; font-size: .75rem; font-weight: inherit; line-height: 1.4; letter-spacing: .1em; text-transform: uppercase; }
+    .work { margin: 0 0 .6rem; color: #68645d; font-size: .9rem; }
+    .sample { max-width: 58rem; margin: 0; font-size: clamp(1.125rem, 2.2vw, 1.45rem); line-height: 1.8; }
+    .regular { font-weight: 400; }
+    .bold { font-weight: 700; }
+    pre { max-width: 100%; margin: 0; overflow-x: auto; font: inherit; font-size: clamp(.875rem, 1.6vw, 1.125rem); line-height: 1.7; tab-size: 4; }
+    [contenteditable]:focus { outline: 2px solid #77736b; outline-offset: .4rem; }
+    .small { font-size: 14px; line-height: 1.7; }
+    a { color: inherit; text-underline-offset: .2em; }
+    footer { border-top: 1px solid #d8d4ca; padding-top: 1rem; color: #686a6d; font: .82rem/1.7 system-ui, sans-serif; }
+  </style>
+</head>
+<body>
+  <main>
+    <h1>JinProto Mono</h1>
+    <p class="intro">0xProto Latin × Tsanger JinKai 04 Chinese · Regular &amp; Bold · v0.2<br>Latin occupies one cell; Chinese occupies two.</p>
+
+    <article class="regular">
+      <h2 class="label">Regular · 400</h2>
+      <p class="work">逍遥游 · Wandering Freely</p>
+      <p class="sample"><span lang="zh-Hans">北冥有鱼，其名为鲲。鲲之大，不知其几千里也；化而为鸟，其名为鹏。怒而飞，其翼若垂天之云。</span> <span lang="en">Far to the north, a fish named Kun fills the ocean. It changes into a bird named Peng, whose wings spread across the sky like clouds.</span></p>
+    </article>
+
+    <article class="bold">
+      <h2 class="label">Bold · 700</h2>
+      <p class="work">兰亭集序 · At the Orchid Pavilion</p>
+      <p class="sample"><span lang="zh-Hans">是日也，天朗气清，惠风和畅。仰观宇宙之大，俯察品类之盛。所以游目骋怀，足以极视听之娱，信可乐也。</span> <span lang="en">Under clear skies and a gentle breeze, we look toward the vast heavens and the living world below. There is room here for both the eyes and the mind to wander.</span></p>
+    </article>
+
+    <article class="regular">
+      <h2 class="label">Code · editable</h2>
+      <p class="work">Click the sample to try your own text.</p>
+      <pre contenteditable="true" spellcheck="false" aria-label="Editable mixed Chinese and English coding sample">// 检查服务状态 · Check service status
+const message = "你好，世界！";
+if (count &gt;= 10 &amp;&amp; ready) return message;
+
+Il1| O0o  rn m  {} [] ()  != == === =&gt; -&gt;
+ＡＢＣＤＥＦ ０１２３４５ · 中文，。！？（）
+é x̣́ ȁ ȃ o̸ H̏ H̑ O̸ ά Ж̏ Ａ̑</pre>
+    </article>
+
+    <article class="regular">
+      <h2 class="label">Fixed cell grid · editable</h2>
+      <pre contenteditable="true" spellcheck="false" aria-label="Editable font cell alignment sample">|01234567890123456789|
+|中文中文中文中文中文|
+|ＡＢＣＤＥＦＧＨＩＪ|
+|A中B文C             |</pre>
+    </article>
+
+    <article class="regular">
+      <h2 class="label">Small text · 14px</h2>
+      <p class="sample small"><span lang="zh-Hans">日常编程，中文注释与英文代码之间，保持清楚、自然的阅读节奏。</span> <span lang="en">A quiet page, a few clear lines, and enough space to read the code. 0123456789 · αβγ · ÀÁÂÄÆÇÈÉÊËÑØÙÚÛÜß</span></p>
+    </article>
+
+    <footer>Personal, noncommercial font specimen. Upstream notices are preserved in the webfonts.<br>
+      <a href="https://github.com/hanlhe/JinProto-Mono-Webfonts">GitHub</a> ·
+      <a href="JinProtoMono.css">Webfont CSS</a> ·
+      <a href="FONT-NOTICES.txt">Font notices</a>
+    </footer>
+  </main>
+</body>
+</html>
