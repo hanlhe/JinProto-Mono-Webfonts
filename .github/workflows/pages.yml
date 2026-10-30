@@ -1,0 +1,52 @@
+name: Publish webfonts
+
+on:
+  push:
+    branches: [main]
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+concurrency:
+  group: pages
+  cancel-in-progress: false
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - name: Check out webfonts
+        uses: actions/checkout@v7
+        with:
+          persist-credentials: false
+
+      - name: Check webfont assets
+        run: |
+          test -s index.html
+          test -s JinProtoMono.css
+          test -s FONT-NOTICES.txt
+          sha256sum -c SHA256SUMS
+
+      - name: Configure Pages
+        uses: actions/configure-pages@v5
+
+      - name: Stage webfonts and preview
+        run: |
+          mkdir -p _site
+          cp index.html JinProtoMono.css JinProtoMono-*.woff2 FONT-NOTICES.txt SHA256SUMS _site/
+
+      - name: Upload site
+        uses: actions/upload-pages-artifact@v4
+        with:
+          path: _site
+
+      - name: Deploy Pages
+        id: deployment
+        uses: actions/deploy-pages@v4
