@@ -1,0 +1,53 @@
+{
+  "url": "https://hanlhe.github.io/JinProto-Mono-Webfonts/",
+  "ok": true,
+  "assets": [
+    {
+      "name": "JinProtoMono-Regular.woff2",
+      "status": 200,
+      "bytes": 8882216
+    },
+    {
+      "name": "JinProtoMono-Bold.woff2",
+      "status": 200,
+      "bytes": 8963408
+    }
+  ],
+  "httpStatus": 200,
+  "fonts": {
+    "title": "JinProto Mono",
+    "family": "\"JinProto Mono\", monospace",
+    "faces": [
+      {
+        "family": "JinProto Mono",
+        "weight": "400",
+        "status": "loaded"
+      },
+      {
+        "family": "JinProto Mono",
+        "weight": "700",
+        "status": "loaded"
+      }
+    ],
+    "widths": [
+      {
+        "weight": 400,
+        "latin": 9.999984741210938,
+        "chinese": 19.999984741210938
+      },
+      {
+        "weight": 700,
+        "latin": 9.999984741210938,
+        "chinese": 19.999984741210938
+      }
+    ]
+  },
+  "desktop": {
+    "width": 1400,
+    "scrollWidth": 1400
+  },
+  "mobile": {
+    "width": 390,
+    "scrollWidth": 390
+  }
+}
