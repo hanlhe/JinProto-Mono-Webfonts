@@ -1,6 +1,6 @@
 # JinProto Mono webfonts
 
-WOFF2 builds and a bilingual specimen for **JinProto Mono v0.2**, combining
+WOFF2 builds and a bilingual specimen for **JinProto Mono v0.3**, combining
 0xProto Latin with Tsanger JinKai 04 Chinese. Regular (400) and Bold (700)
 use a fixed grid: Latin occupies one cell and Chinese occupies two.
 
@@ -21,6 +21,10 @@ body {
 ```
 
 Use weight 700 for Bold. Contextual programming ligatures are included.
+
+[COMPUTED] Bold uses Latin weight 650 from the original masters, while
+remaining the 700 style for CSS. Regular and the Chinese designs are
+unchanged from v0.2.
 
 This public repository contains the generated webfonts and preview. Build
 sources remain in the separate private font repository. The specimen follows
