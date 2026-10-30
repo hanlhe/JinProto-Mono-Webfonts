@@ -1,0 +1,67 @@
+https://github.com/hanlhe/JinProto-Mono-Webfonts/actions/runs/41143306200
+Refreshing run status every 5 seconds. Press Ctrl+C to quit.
+
+* main Publish webfonts · 41143306200
+Triggered via workflow_dispatch less than a minute ago
+
+JOBS
+* deploy (ID 124362458164)
+Refreshing run status every 5 seconds. Press Ctrl+C to quit.
+
+* main Publish webfonts · 41143306200
+Triggered via workflow_dispatch less than a minute ago
+
+JOBS
+* deploy (ID 124362458164)
+  ✓ Set up job
+  * Check out webfonts
+  * Check webfont assets
+  * Configure Pages
+  * Stage webfonts and preview
+  * Upload site
+  * Deploy Pages
+  * Post Check out webfonts
+Refreshing run status every 5 seconds. Press Ctrl+C to quit.
+
+* main Publish webfonts · 41143306200
+Triggered via workflow_dispatch less than a minute ago
+
+JOBS
+* deploy (ID 124362458164)
+  ✓ Set up job
+  ✓ Check out webfonts
+  ✓ Check webfont assets
+  ✓ Configure Pages
+  ✓ Stage webfonts and preview
+  ✓ Upload site
+  * Deploy Pages
+  * Post Check out webfonts
+Refreshing run status every 5 seconds. Press Ctrl+C to quit.
+
+* main Publish webfonts · 41143306200
+Triggered via workflow_dispatch less than a minute ago
+
+JOBS
+* deploy (ID 124362458164)
+  ✓ Set up job
+  ✓ Check out webfonts
+  ✓ Check webfont assets
+  ✓ Configure Pages
+  ✓ Stage webfonts and preview
+  ✓ Upload site
+  * Deploy Pages
+  * Post Check out webfonts
+✓ main Publish webfonts · 41143306200
+Triggered via workflow_dispatch less than a minute ago
+
+JOBS
+✓ deploy in 16s (ID 124362458164)
+  ✓ Set up job
+  ✓ Check out webfonts
+  ✓ Check webfont assets
+  ✓ Configure Pages
+  ✓ Stage webfonts and preview
+  ✓ Upload site
+  ✓ Deploy Pages
+  ✓ Post Check out webfonts
+  ✓ Complete job
